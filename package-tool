@@ -1,0 +1,14 @@
+#!/bin/bash
+
+BASEDIR=`cd $(dirname $0)/.. && pwd`
+cd $BASEDIR
+
+if [ $1 ]; then
+  case $1 in
+    install)
+      apm install --packages-file package-list ;;
+    save)
+      rm package-list
+      apm list --installed --bare > package-list ;;
+  esac
+fi

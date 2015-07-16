@@ -1,0 +1,42 @@
+.tree-view {}
+
+.atom-text-editor {}
+
+atom-text-editor::shadow .cursor {}
+
+atom-pane .tab-bar {
+
+  .tab {
+
+    .title:before {
+      display: none;
+    }
+
+    &.active .title, .title {
+      padding-left: 28px;
+    }
+
+    .close-icon {
+      margin-left: 10px;
+      margin-right: auto;
+    }
+
+    &.modified:not(:hover) .close-icon, .close-icon {
+      right: initial;
+    }
+
+    &.active[data-type="TextEditor"], & {
+      min-width: initial;
+      width: auto;
+      padding: 0;
+    }
+
+    &.active {
+      flex: 1;
+    }
+  }
+
+  &:empty:before {
+    background: transparent;
+  }
+}

@@ -1,0 +1,31 @@
+"*":
+  core:
+    disabledPackages: [
+      "package-that-throws-an-exception"
+      "package-with-broken-package-json"
+      "package-with-broken-keymap"
+      "wrap-guide"
+      "emmet"
+    ]
+  editor:
+    fontFamily: "Inconsolata"
+    fontSize: 21
+    lineHeight: 1.2
+    softWrap: true
+    showIndentGuide: true
+  "livescript-compile":
+    focusEditorAfterCompile: true
+  "language-babel":
+    suppressTranspileOnSaveMessages: true
+  welcome:
+    showOnStartup: false
+  "tree-view":
+    hideIgnoredNames: true
+  "webbox-color":
+    fillColorAsBackground: false
+  minimap:
+    displayPluginsControls: false
+  tabs:
+    usePreviewTabs: true
+  "git-diff":
+    showIconsInEditorGutter: true
