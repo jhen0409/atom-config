@@ -16,8 +16,9 @@ The Atom configuration files are usually in `~/.atom`.
 ## Config files
 
 ```
+config.cson
 init.coffee
+keymap.cson
 snippets.cson
 styles.less
-config.cson
 ```
