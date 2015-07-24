@@ -12,14 +12,14 @@
     fontSize: 21
     lineHeight: 1.2
     showIndentGuide: true
+    invisibles: {}
+    scrollPastEnd: true
   "livescript-compile":
     focusEditorAfterCompile: true
   "language-babel":
     suppressTranspileOnSaveMessages: true
   welcome:
     showOnStartup: false
-  "tree-view":
-    hideIgnoredNames: true
   "webbox-color":
     fillColorAsBackground: false
   minimap:
@@ -28,3 +28,12 @@
     usePreviewTabs: true
   "git-diff":
     showIconsInEditorGutter: true
+  "tree-view":
+    hideIgnoredNames: true
+  whitespace:
+    ensureSingleTrailingNewline: false
+  "linter-eslint":
+    globalNodePath: "/usr/local/Cellar/nvm/0.24.0/versions/io.js/v2.3.3"
+    useGlobalEslint: true
+  'linter-lsc':
+    'lscExecutablePath': "/usr/local/opt/nvm/versions/io.js/v2.3.3/bin/lsc"
