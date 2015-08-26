@@ -6,6 +6,7 @@
       "package-with-broken-keymap"
       "wrap-guide"
       "emmet"
+      "vim-mode"
     ]
   editor:
     fontFamily: "Inconsolata"
