@@ -1,4 +1,4 @@
-# Jhen's Atom Editor config
+Atom Editor config for personal usage
 
 ## Package list
 
@@ -17,7 +17,6 @@ The Atom configuration files are usually in `~/.atom`.
 
 ```
 config.cson
-init.coffee
 keymap.cson
 snippets.cson
 styles.less
