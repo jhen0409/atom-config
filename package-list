@@ -1,13 +1,13 @@
 busy-signal@1.4.1
 intentions@1.1.2
-language-babel@2.57.7
+language-babel@2.60.0
 language-lua@0.9.11
-language-markdown@0.21.0
+language-markdown@0.22.0
 linter@2.1.4
 linter-eslint@8.1.7
-linter-ui-default@1.2.3
+linter-ui-default@1.3.0
 markdown-preview-plus@2.4.9
-minimap@4.28.1
+minimap@4.28.2
 native-color-picker@0.2.5
 prettier-atom@0.30.0
 spacegray-atom-dark-syntax@1.3.2
