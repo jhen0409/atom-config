@@ -22,7 +22,6 @@
   linter: {}
   "linter-ui-default":
     panelHeight: 95
-    showPanel: true
   "markdown-preview": {}
   "prettier-atom":
     formatOnSaveOptions:
