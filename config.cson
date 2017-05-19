@@ -15,6 +15,7 @@
     invisibles: {}
     lineHeight: 1.6
     scrollPastEnd: true
+    scrollSensitivity: 60
     showIndentGuide: true
     tabType: "soft"
   "exception-reporting":
@@ -23,9 +24,10 @@
   "linter-ui-default":
     panelHeight: 95
   "markdown-preview": {}
+  minimap: {}
   "prettier-atom":
     formatOnSaveOptions:
-      enabled: true
+      showInStatusBar: true
     prettierEslintOptions: {}
     prettierOptions:
       semi: false
