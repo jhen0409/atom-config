@@ -1,7 +1,10 @@
 "*":
+  "atom-clock":
+    showClockIcon: true
   core:
     disabledPackages: [
       "language-gfm"
+      "linter-kotlin"
     ]
     projectHome: "/Users/jhen/workspace"
     telemetryConsent: "no"
@@ -17,16 +20,16 @@
     scrollPastEnd: true
     scrollSensitivity: 60
     showIndentGuide: true
-    tabType: "soft"
   "exception-reporting":
     userId: "a44888c0-592a-47b7-80f3-0e9a350acbaa"
   linter: {}
   "linter-ui-default":
-    panelHeight: 95
+    panelHeight: 66
   "markdown-preview": {}
   minimap: {}
   "prettier-atom":
     formatOnSaveOptions:
+      enabled: true
       showInStatusBar: true
     prettierEslintOptions: {}
     prettierOptions:
@@ -34,5 +37,8 @@
       singleQuote: true
       trailingComma: "all"
     useEslint: true
+  "svg-preview":
+    closePreviewAutomatically: false
+    openPreviewAutomatically: true
   welcome:
     showOnStartup: false
